@@ -401,4 +401,43 @@ input:focus , textarea:focus{    background-color: #b397607c;}
     footer img{
         max-width: 3rem;
     }
+
+    .secundario {
+        flex-direction: column;
+    }
+
+    .secundario div {
+        width: 100%;
+    }
+
+    .galeria a {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .formulario {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .formulario img, .formulario form {
+        width: 100%;
+    }
+
+    .esteticaTemp, .esteticaPersonajes {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .esteticaTemp img, .esteticaPersonajes img {
+        width: 100%;
+    }
+
+    .textoTemp, .textoPersonajes {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
     }
