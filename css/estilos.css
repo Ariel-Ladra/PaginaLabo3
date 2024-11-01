@@ -168,7 +168,7 @@ footer{
 
 footer a{    margin-left: 3%;}
 
-.icon{
+.iconFooter{
     margin-top: 2%;
     max-width: 50px;
     max-height: 50px;
@@ -390,7 +390,7 @@ input:focus , textarea:focus{    background-color: #b397607c;}
         display: block;
     }
 
-    
+
     section{
         max-width: 480px;
         width: 100%;
