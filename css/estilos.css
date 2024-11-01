@@ -348,12 +348,12 @@ input:focus , textarea:focus{    background-color: #b397607c;}
     header nav {
         flex-basis: 100%;
     }
-    /* .icon {
+     .icon {
         display: block;
         padding-right: 0.6rem;
         text-align: right;
     }
-    nav ul {
+    /* nav ul {
         display: none;
     }
     nav.responsive ul {
