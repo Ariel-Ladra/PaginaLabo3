@@ -348,7 +348,7 @@ input:focus , textarea:focus{    background-color: #b397607c;}
     header nav {
         flex-basis: 100%;
     }
-    .icon {
+    /* .icon {
         display: block;
         padding-right: 0.6rem;
         text-align: right;
@@ -366,7 +366,31 @@ input:focus , textarea:focus{    background-color: #b397607c;}
     }
     nav.responsive ul li a {
         padding-right: 0;
+    } */
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: #1a1a1aa1;
+        width: 100%;
+        padding: 1rem 0;
     }
+
+    nav.responsive ul {
+        display: flex;
+    }
+
+    .submenu {
+        position: static;
+        display: none;
+    }
+
+    nav ul li:hover .submenu {
+        display: block;
+    }
+
+    
     section{
         max-width: 480px;
         width: 100%;
