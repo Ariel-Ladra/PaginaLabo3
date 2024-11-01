@@ -328,3 +328,72 @@ input:focus , textarea:focus{    background-color: #b397607c;}
 .ancla{
     height: 10px;
 }
+
+/************************************ RESPONSIVE ************************************/
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav {
+        width: 100%;
+        padding: 0;
+        margin: 1rem 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        padding-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .secundario {
+        flex-direction: column;
+    }
+
+    .secundario div {
+        width: 100%;
+    }
+
+    .galeria a {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .formulario {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .formulario img, .formulario form {
+        width: 100%;
+    }
+
+    .esteticaTemp, .esteticaPersonajes {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .esteticaTemp img, .esteticaPersonajes img {
+        width: 100%;
+    }
+
+    .textoTemp, .textoPersonajes {
+        width: 100%;
+        margin-left: 0;
+    }
+}
