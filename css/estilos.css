@@ -352,20 +352,6 @@ input:focus , textarea:focus{    background-color: #b397607c;}
         padding-right: 0.6rem;
         text-align: right;
     }
-    /* nav ul {
-        display: none;
-    }
-    nav.responsive ul {
-        display: block;
-    }
-    nav.responsive ul li {
-        display: block;
-        text-align: center;
-        padding: 0.5rem;
-    }
-    nav.responsive ul li a {
-        padding-right: 0;
-    } */
 
     nav ul {
         display: none;
@@ -421,11 +407,21 @@ input:focus , textarea:focus{    background-color: #b397607c;}
     .secundario div a img{
         margin-bottom: 1rem;
     }
-    h2{
+
+    h1{
         font-size: 1rem;
     }
+
+    h2{
+        font-size: 0.8rem;
+    }
+
+    h3{
+        font-size: 0.6;
+    }
+
     h4{
-        font-size: 1rem;
+        font-size: 0.4rem;
     }
     footer{
         height: 80px;
