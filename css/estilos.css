@@ -143,22 +143,99 @@ section{
 }
 
 
-footer{
+footer {
+    background-color:#1a1a1ad2;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.footer-top {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Estilo de enlaces útiles */
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+
+}
+
+.footer-links ul {
+    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
-    height: 100px;
-    width: auto;
+    width: 100%;
 }
 
-footer a{   margin-left: 3%;}
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 
-.iconFooter{
-    margin-top: 2%;
-    max-width: 50px;
-    max-height: 50px;
-    margin-right: 2.5%;
+.footer-links a:hover {
+    color: #ffc44f;
+}
+
+/* Línea divisora */
+.footer-divider {
+    margin-top: 1%;
+    width: 6px;
+    height: 80px;
+    background-color: #ffc44f; /* Color de la línea divisoria */
+}
+
+/* Estilo de redes sociales */
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 20px; /* Espacio entre los iconos */
+}
+
+.iconFooter {
+    max-width: 30px;
+    max-height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.iconFooter:hover {
+    transform: scale(1.1);
+}
+
+/* Footer inferior */
+.footer-bottom {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.75rem;
+    opacity: 0.8;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -432,4 +509,35 @@ input:focus , textarea:focus{   background-color: #b397607c;}
         margin-left: 0;
     }
 
+    footer{
+        margin-top: 4%;
+        background-color:#1a1a1a;
+        height: auto;
+    }
+
+    .footer-top {
+        padding-top: 2%;
+        display: block;
+        text-align: left;
+    }
+
+    .footer-links , .footer-divider{   display: none;
+    }
+
+    .footer-social-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px; /* Reducir el espacio entre íconos */
+    }
+
+    .iconFooter {
+        max-width: 40px; /* Reducir el tamaño de los íconos */
+        max-height: 40px;
+    }
+
+    .footer-bottom p{
+        font-size: 0.65rem; /* Reducir el tamaño de la fuente */
+    }
 }
+
+
