@@ -37,7 +37,6 @@ body{
     width: 30%;
     padding-left: 1%;
     padding-top: 1%;
-
 }
 
 #imgLogo{   max-width: 250px;}
@@ -398,11 +397,16 @@ input:focus , textarea:focus{   background-color: #b397607c;}
         position: sticky;
         top: 0;
         z-index: 1;
+        padding: 2%;
+        margin-bottom: 2%;
     }
     header div, header a {  flex: 1 0 50%;}
 
     header nav {   flex-basis: 100%;}
 
+    #imgLogo{   max-width: 200px;}
+
+    
     .icon {
         display: block;
         padding-right: 0.6rem;
@@ -521,23 +525,20 @@ input:focus , textarea:focus{   background-color: #b397607c;}
         text-align: left;
     }
 
-    .footer-links , .footer-divider{   display: none;
-    }
+    .footer-links , .footer-divider{   display: none;}
 
     .footer-social-icons {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 40px; /* Reducir el espacio entre íconos */
+        gap: 40px; 
     }
 
     .iconFooter {
-        max-width: 40px; /* Reducir el tamaño de los íconos */
+        max-width: 40px;
         max-height: 40px;
     }
 
-    .footer-bottom p{
-        font-size: 0.65rem; /* Reducir el tamaño de la fuente */
-    }
+    .footer-bottom p{   font-size: 0.65rem;}
 }
 
 
